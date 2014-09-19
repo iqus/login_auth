@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'staysuit',
+			'database'  => 'sampauth',
 			'username'  => 'root',
 			'password'  => '12345',
 			'charset'   => 'utf8',

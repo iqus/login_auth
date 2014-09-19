@@ -14,10 +14,11 @@ class AuthorsController extends BaseController {
 
 
 	}
-	public function add()
+	public function samp()
 	{
-		return View::make('home.index');
+		 return View::make('login');
 	}
+	 
 }
 
  ?>

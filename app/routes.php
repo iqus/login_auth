@@ -16,7 +16,13 @@
 // 	//return View::make('hello');
 
 // });
-Route::get('/', 'HomeController@showWelcome');
+ Route::get('/', 'AuthorsController@add');
 
 Route::get('data', array('uses'=>'AuthorsController@index'));
 
+// Route::get('/',function(){
+
+// 	//$title="homepage";
+// 	return View::make('home.index');
+// 	//->with('title',$title);
+// });

@@ -9,9 +9,14 @@ class AuthorsController extends BaseController {
 	    ->with('gender','M');
 		$view->location='guruvayoor';
 		$view['ph']='487-557121';
+		$view->title="anand";
 		return $view;
 
 
+	}
+	public function add()
+	{
+		return View::make('home.index');
 	}
 }
 
